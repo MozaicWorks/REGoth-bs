@@ -22,6 +22,9 @@ namespace REGoth
           bs::StringUtil::format("Game-file directory {0} does not seem to have a 'data'-directory!",
                                  mRoot.toString()));
     }
+    int i = 0;
+    i = i + 1;
+    std::cout << i << std::endl;
 
     if (gothicDat().isEmpty())
     {

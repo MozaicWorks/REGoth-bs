@@ -228,3 +228,13 @@ target_link_libraries(REGothWorldCacheTest REGothEngine samples-common)
 
 add_executable(REGothFocusTester main_FocusTester.cpp)
 target_link_libraries(REGothFocusTester REGothEngine samples-common)
+
+add_library(OriginalContent STATIC
+        original-content/OriginalGameFiles.cpp
+        original-content/OriginalGameFiles.hpp
+        original-content/OriginalGameResources.cpp
+        original-content/OriginalGameResources.hpp
+        original-content/VirtualFileSystem.cpp
+        original-content/VirtualFileSystem.hpp
+        )
+target_link_libraries(OriginalContent PUBLIC bsf BsZenLib REGothEngine)
