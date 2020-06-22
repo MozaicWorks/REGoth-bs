@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="original_content"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="original_content">
+				<Option output="/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/original_content" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/."/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../src"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/bsf/Source/Foundation/bsfEngine"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/bsf/Source/Foundation/bsfCore"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/bsf/Source/Foundation/bsfUtility"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../cmake-build-debug/lib/bsf/Generated/bsfUtility"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/BsZenLib/include"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/BsZenLib/lib/ZenLib/zenload"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/BsZenLib/lib/ZenLib"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 original_content"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="original_content/fast">
+				<Option output="/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/original_content" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/."/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../src"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/bsf/Source/Foundation/bsfEngine"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/bsf/Source/Foundation/bsfCore"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/bsf/Source/Foundation/bsfUtility"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../cmake-build-debug/lib/bsf/Generated/bsfUtility"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/BsZenLib/include"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/BsZenLib/lib/ZenLib/zenload"/>
+					<Add directory="/home/alexb/work/REGoth-bs/ForTests/original-content/../../lib/BsZenLib/lib/ZenLib"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 original_content/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexb/work/REGoth-bs/ForTests/original-content/OriginalGameFiles.cpp">
+			<Option target="original_content"/>
+		</Unit>
+		<Unit filename="/home/alexb/work/REGoth-bs/ForTests/original-content/OriginalGameFiles.hpp">
+			<Option target="original_content"/>
+		</Unit>
+		<Unit filename="/home/alexb/work/REGoth-bs/ForTests/original-content/OriginalGameResources.cpp">
+			<Option target="original_content"/>
+		</Unit>
+		<Unit filename="/home/alexb/work/REGoth-bs/ForTests/original-content/OriginalGameResources.hpp">
+			<Option target="original_content"/>
+		</Unit>
+		<Unit filename="/home/alexb/work/REGoth-bs/ForTests/original-content/Tests.cpp">
+			<Option target="original_content"/>
+		</Unit>
+		<Unit filename="/home/alexb/work/REGoth-bs/ForTests/original-content/VirtualFileSystem.cpp">
+			<Option target="original_content"/>
+		</Unit>
+		<Unit filename="/home/alexb/work/REGoth-bs/ForTests/original-content/VirtualFileSystem.hpp">
+			<Option target="original_content"/>
+		</Unit>
+		<Unit filename="/home/alexb/work/REGoth-bs/ForTests/original-content/doctest.h">
+			<Option target="original_content"/>
+		</Unit>
+		<Unit filename="/home/alexb/work/REGoth-bs/ForTests/original-content/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
