@@ -156,10 +156,35 @@ private:
   std::unique_ptr<const WorldViewerConfig> mConfig;
 };
 
-int main(int argc, char** argv)
+int main_new(int argc, char** argv);
+int main_old(int argc, char** argv)
 {
   auto config = REGoth::parseArguments<WorldViewerConfig>(argc, argv);
   REGothWorldViewer engine{std::move(config)};
 
   return REGoth::runEngine(engine);
+}
+
+int main(int argc, char** argv)
+{
+  bool isNew = false;
+
+  for(int i = 0; i<argc; ++i)
+  {
+    std::string currentArg(argv[i]);
+    if(currentArg.find("newArg") != std::string::npos)
+    {
+      isNew = true;
+      break;
+    }
+  }
+
+  if(isNew) return main_new(argc, argv);
+  else return main_old(argc, argv);
+}
+
+int main_new(int argc, char** argv)
+{
+  std::cout<<"In main_new" << std::endl;
+  return 0;
 }
