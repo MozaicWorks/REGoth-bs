@@ -1,3 +1,0 @@
-/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/alexb/work/REGoth-bs/ForTests/original-content/cmake-build-debug/CMakeFiles/original_content.dir
